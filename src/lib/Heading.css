@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.Heading{
+    background-color: #008060;
+    height: 455px;
+}
+.logo img{
+    display: block;
+    width: 150px;
+    height: 70px;
+    margin-top: 13px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 90px;
+}
+.header h1{
+    font-weight: 700;
+    font-kerning: normal;
+    font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+    font-feature-settings: 'kern', 'liga', 'clig', 'calt', 'dlig';
+    display: block;
+    margin-bottom: 0.7142857143em;
+    font-size: 1.75em;
+    line-height: 1.2142857143;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    letter-spacing: -0.0207142857em;
+    margin-top: 40px;
+    font-size: 420%;
+}
+.sub-header p{
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 220%;
+}
+h1, h2, h3, h4, h5 {
+    margin-top: 0;
+    text-align: center;
+}
+p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+.waves{
+    display: block;
+    height: 320px;
+    background-image: url('../images/wave.svg');
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center center;
+
+}
+.shop-icon{
+    position: absolute;
+    bottom: -50px;
+    left: 520px;
+}

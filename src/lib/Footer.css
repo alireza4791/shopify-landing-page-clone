@@ -1,0 +1,42 @@
+#tr_btn:hover{
+    background-color: #004C3F;
+}
+#tr_btn{
+    background-color: #008060;
+    display: block;
+    width: 168px;
+    margin: 50px auto 100px auto;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: large;
+    height: 53px;
+
+}
+.Footer blockquote{
+    text-align: center;
+    font-size: x-large;
+}
+.Footer p{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #42474C;
+}
+.Footer a{
+    color: #008060;
+    text-decoration: none;
+}
+.F_links{
+    display: flex;
+    justify-content: flex-end;
+    font-size: medium;
+}
+.F_links a:last-child{
+    margin-right: 200px;
+}
+.F_links a:first-child{
+    margin-right: 22px;
+}
+.Footer{
+    margin-top: 100px;
+}
