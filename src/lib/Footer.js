@@ -11,7 +11,7 @@ class Footer extends React.Component{
                 <p>
                 JONATHON BAYME, CEO OF THEORY11
                 </p>
-                <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="tr_btn" class="ui primary button">
+                <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="tr_btn" className="ui primary button">
                     Start free trial
                 </button>
                 <div className="F_links">

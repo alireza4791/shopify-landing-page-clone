@@ -10,7 +10,7 @@ class Feature extends React.Component{
         return(
             <div className="Feature">
                 <div className='theme'>
-                    <img src={imag1} />
+                    <img alt='mobile-friendly' src={imag1} />
                     <h2>
                         Beautiful themes that are responsive and customizable
                     </h2>
@@ -20,7 +20,7 @@ class Feature extends React.Component{
                 </div>
 
                 <div className='price'>
-                    <img src={imag2} />
+                    <img alt='money' src={imag2} />
                     <h2>
                         Pricing as low as $29/month
                     </h2>
@@ -29,7 +29,7 @@ class Feature extends React.Component{
                     </p>
                 </div>
 
-                <div className='trust'>
+                <div alt='trust' className='trust'>
                     <img src={imag3} />
                     <h2>
                         Trusted by over 1,700,000 businesses worldwide

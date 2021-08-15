@@ -24,20 +24,20 @@ class Input extends React.Component {
                     <input onChange={Event => this.setState({input: Event.target.value})} value={this.state.input} id="email" type="email" placeholder={this.props.placeholder}></input>
                     </div>
                     {/* button for displaying the pop up */}
-                    <button type='button' data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="trial_btn" class="ui secondary button">
+                    <button type='button' data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="trial_btn" className="ui secondary button">
                         {this.props.btnText}
                     </button>
 
 
                     {/* Modal */}
-                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div  class="modal-dialog">
-                    <div id='m_content' class="modal-content">
-                    <div id='m_head' class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel" style={{fontSize: '190%', fontWeight: '500'}}>Start your free 14-day trial of Shopify</h5>
-                        <button id='close' type="button" class='close' data-bs-dismiss="modal" aria-label="Close">&times;</button>
+                    <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div  className="modal-dialog">
+                    <div id='m_content' className="modal-content">
+                    <div id='m_head' className="modal-header">
+                        <h5 className="modal-title" id="staticBackdropLabel" style={{fontSize: '190%', fontWeight: '500'}}>Start your free 14-day trial of Shopify</h5>
+                        <button id='close' type="button" className='close' data-bs-dismiss="modal" aria-label="Close">&times;</button>
                     </div>
-                    <div id='m_body' class="modal-body">
+                    <div id='m_body' className="modal-body">
                         {/* email input field */}
                         <div className="input-group mb-3">
                         <label aria-hidden='true' htmlFor="t_email">Email</label>
@@ -52,17 +52,17 @@ class Input extends React.Component {
                         <div className="input-group mb-3">
                         <label aria-hidden='true' htmlFor="t_store">your store name</label>
                         <input type='text' placeholder="your store name" id='t_store' className='form-control' />
-                        <span class="input-group-text" id="basic-addon2">.myshopify.com</span>
+                        <span className="input-group-text" id="basic-addon2">.myshopify.com</span>
                         </div>
                     </div>
-                    <div id='m_footer' class="modal-footer">
+                    <div id='m_footer' className="modal-footer">
                         <div id='info'>
                             <p>
                             This is the URL that customers will use to visit your store. You can also buy a custom domain like mystore.com and connect it to this store. 
-                            <a href='#' id='learn' data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">&nbsp;Learn more</a>
+                            <a id='learn' data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">&nbsp;Learn more</a>
                             </p>
                         </div>
-                    <button id='create' type="button" class="btn btn-primary">Create your store</button>
+                    <button id='create' type="button" className="btn btn-primary">Create your store</button>
                     </div>
                     </div>
                     </div>
@@ -70,14 +70,14 @@ class Input extends React.Component {
 
 
                     {/* second modal for learn more link */}
-                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                    <div id='m2_dialog' class="modal-dialog modal-dialog-centered">
-                    <div id="m2_content" class="modal-content">
-                    <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalToggleLabel2">Your Store URL</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div className="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabIndex="-1">
+                    <div id='m2_dialog' className="modal-dialog modal-dialog-centered">
+                    <div id="m2_content" className="modal-content">
+                    <div className="modal-header">
+                    <h5 className="modal-title" id="exampleModalToggleLabel2">Your Store URL</h5>
+                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div className="modal-body">
                     <h6>What is a domain?</h6>
                     <p>A domain is a website address used to access your store. When you create a store, we create a domain at myshopify.com for you.</p>
                     <br />
@@ -108,12 +108,11 @@ class Input extends React.Component {
 <p>
 You can buy a custom domain from Shopify or any 3rd party, and connect it to your store at any time.</p>
                     </div>
-                    <div id="m2_footer" class="modal-footer">
+                    <div id="m2_footer" className="modal-footer">
                     </div>
                     </div>
                     </div>
                     </div>
-                    {/* <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a> */}
                     </form>
                     
                     </div>
@@ -133,8 +132,3 @@ Input.defaultProps = {
 }
 
 export default Input;
-
-
-{/* <div class="modal-footer">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
-      </div> */}

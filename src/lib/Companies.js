@@ -13,14 +13,14 @@ class Companies extends React.Component{
         return(
             <div className="Companies">
                 <ul>
-                    <li><img src={Clogo1} /></li>
-                    <li><img src='https://nalatanalata.com/wp-content/themes/nalata/assets/logo-nalata-nalata.svg' /></li>
-                    <li><img src={Clogo2} /></li>
-                    <li><img src={Clogo3} /></li>
-                    <li><img src={Clogo4} /></li>
-                    <li><img src={Clogo5} /></li>
-                    <li><img src={Clogo6} /></li>
-                    <li><img src={Clogo0} /></li>
+                    <li><img alt='cee cee' src={Clogo1} /></li>
+                    <li><img alt='nalata nalata' src='https://nalatanalata.com/wp-content/themes/nalata/assets/logo-nalata-nalata.svg' /></li>
+                    <li><img alt='kirrin finch' src={Clogo2} /></li>
+                    <li><img alt='tokyobike' src={Clogo3} /></li>
+                    <li><img alt='exo' src={Clogo4} /></li>
+                    <li><img alt='brooklyn museum' src={Clogo5} /></li>
+                    <li><img alt='Adore Me' src={Clogo6} /></li>
+                    <li><img alt='coco and breezy' src={Clogo0} /></li>
                 </ul>
             </div>
         );
