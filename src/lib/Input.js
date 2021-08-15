@@ -59,7 +59,7 @@ class Input extends React.Component {
                         <div id='info'>
                             <p>
                             This is the URL that customers will use to visit your store. You can also buy a custom domain like mystore.com and connect it to this store. 
-                            <a id='learn' data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">&nbsp;Learn more</a>
+                            <span id='learn' data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">&nbsp;Learn more</span>
                             </p>
                         </div>
                     <button id='create' type="button" className="btn btn-primary">Create your store</button>

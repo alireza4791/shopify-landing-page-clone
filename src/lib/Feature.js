@@ -29,8 +29,8 @@ class Feature extends React.Component{
                     </p>
                 </div>
 
-                <div alt='trust' className='trust'>
-                    <img src={imag3} />
+                <div className='trust'>
+                    <img alt='trust' src={imag3} />
                     <h2>
                         Trusted by over 1,700,000 businesses worldwide
                     </h2>
